@@ -17,7 +17,6 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 # Let's put a pick list here so they can pick the fruit they want to include 
 import streamlit as st
 
-my_fruit_list = ['Avocado', 'Strawberries', 'Banana', 'Apple', 'Orange', 'Grapes', 'Pineapple']
 
 selected_fruits = st.multiselect("Pick some fruits:", my_fruit_list, ['Avocado', 'Strawberries'])
 
